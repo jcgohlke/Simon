@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MenuViewController.swift
 //  Simon
 //
 //  Created by Joben Gohlke on 5/14/20.
@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MenuViewController: UIViewController {
+  
+  var scoreController = ScoreController()
 
   override func viewDidLoad() {
     super.viewDidLoad()
